@@ -1,11 +1,11 @@
 {
-    "default_model": "rsmplaygroundembrace_v10.safetensors",
+    "default_model": "uberRealisticPornMerge_urpmv13.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "NsfwPovAllInOneLoraSdxl-000009.safetensors",
+            "None",
             0.1
         ],
         [
