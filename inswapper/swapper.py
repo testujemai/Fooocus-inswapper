@@ -210,7 +210,7 @@ def parse_args():
     parser.add_argument("--background_enhance", action="store_true", help="The flag for background enhancement.")
     parser.add_argument("--face_upsample", action="store_true", help="The flag for face upsample.")
     parser.add_argument("--upscale", type=int, default=1, help="The upscale value, up to 4.")
-    parser.add_argument("--codeformer_fidelity", type=float, default=0.5, help="The codeformer fidelity.")
+    parser.add_argument("--codeformer_fidelity", type=float, default=1, help="The codeformer fidelity.")
     args = parser.parse_args()
     return args
 
